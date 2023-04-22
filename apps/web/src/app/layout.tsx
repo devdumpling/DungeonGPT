@@ -1,8 +1,9 @@
 import "../styles/globals.css";
+import { Container } from "src/components/Container";
 
 export const metadata = {
-  title: "Dwells",
-  description: "A template",
+  title: "DungeonGPT",
+  description: "An epic adventure driven by ChatGPT",
 };
 
 export default function RootLayout({
@@ -12,7 +13,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Container>{children}</Container>
+      </body>
     </html>
   );
 }
