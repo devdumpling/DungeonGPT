@@ -1,4 +1,8 @@
-# DevStack Monorepo Template Repo
+# DungeonGPT
+
+Under construction. Below is the README from the template monorepo I created from.
+
+---
 
 For quick copy-pasta based on the setup I like (which I'm calling DevStack).
 
