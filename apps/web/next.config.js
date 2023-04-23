@@ -7,6 +7,6 @@ module.exports = {
     typedRoutes: true,
   },
   env: {
-    OPEN_AI_API_KEY: process.env.OPEN_AI_API_KEY,
+    OPENAI_API_KEY: process.env.OPENAI_API_KEY,
   },
 };

@@ -1,8 +1,13 @@
+import type { ChatResponse } from "src/types/GPT";
+
 const API_KEY = process.env.OPENAI_API_KEY;
 const API_ENDPOINT = "https://api.openai.com/v1/";
 
-export async function fetchOpenAI(model: string, prompt: string) {
-  console.log(API_KEY);
+export async function fetchOpenAI(
+  model: string,
+  prompt: string
+): Promise<ChatResponse | null> {
+  console.log("key", API_KEY);
   try {
     const response = await fetch(`${API_ENDPOINT}chat/completions`, {
       method: "POST",
